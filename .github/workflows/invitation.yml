@@ -11,7 +11,7 @@ jobs:
         with:
           organization: The Debuggers
           label: invitation
-          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          repo-token: ${{ secrets.GITHUBTOKEN }}
           comment: 'Welcome to the Org.'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
