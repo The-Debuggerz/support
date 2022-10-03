@@ -9,9 +9,9 @@ jobs:
       - name: Invite on label
         uses: vj-abigo/invite-on-label@v1.2
         with:
-          organization: The Debuggers
+          organization: The-Debuggerz
           label: invitation
-          repo-token: ${{ secrets.GITHUBTOKEN }}
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
           comment: 'Welcome to the Org.'
         env:
           INVITE_TOKEN: ${{ secrets.INVITE_TOKEN }}
